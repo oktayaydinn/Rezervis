@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		355705302D86DE21007EA503 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3557052F2D86DE21007EA503 /* FirebaseAnalytics */; };
+		355705342D877691007EA503 /* servisModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355705332D877690007EA503 /* servisModel.swift */; };
+		355705362D877B1B007EA503 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 355705352D877B1B007EA503 /* FirebaseFirestore */; };
 		357656372D7AF62A00A46F99 /* rezervisAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357656362D7AF62A00A46F99 /* rezervisAppApp.swift */; };
 		357656392D7AF62A00A46F99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357656382D7AF62A00A46F99 /* ContentView.swift */; };
 		3576563B2D7AF62C00A46F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3576563A2D7AF62C00A46F99 /* Assets.xcassets */; };
 		3576563E2D7AF62C00A46F99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3576563D2D7AF62C00A46F99 /* Preview Assets.xcassets */; };
+		3589C1B62D7DB5680089B32D /* KayitEkraniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3589C1B52D7DB5680089B32D /* KayitEkraniView.swift */; };
+		3589C1B82D7DB5890089B32D /* KullaniciAnaEkran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3589C1B72D7DB5890089B32D /* KullaniciAnaEkran.swift */; };
+		3589C1BA2D7DB5BB0089B32D /* KullaniciRezervasyonlarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3589C1B92D7DB5BB0089B32D /* KullaniciRezervasyonlarView.swift */; };
+		3589C1BC2D7DB5DC0089B32D /* RezervasyonOnayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3589C1BB2D7DB5DC0089B32D /* RezervasyonOnayView.swift */; };
+		3589C1BE2D7DB5FB0089B32D /* YoneticiAnaEkran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3589C1BD2D7DB5FB0089B32D /* YoneticiAnaEkran.swift */; };
+		3589C1C02D7DB6160089B32D /* YoneticiServisEkleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3589C1BF2D7DB6160089B32D /* YoneticiServisEkleView.swift */; };
+		359C30AD2D8F53F40033254B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 359C30AC2D8F53F40033254B /* GoogleService-Info.plist */; };
+		359C30B22D902E910033254B /* servisVerileriniCekme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359C30B12D902E910033254B /* servisVerileriniCekme.swift */; };
+		35B1387D2D864F9100DAACFE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 35B1387C2D864F9100DAACFE /* FirebaseAuth */; };
+		35B1387F2D864F9100DAACFE /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 35B1387E2D864F9100DAACFE /* FirebaseDatabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		357656332D7AF62A00A46F99 /* rezervisApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rezervisApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		355705332D877690007EA503 /* servisModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = servisModel.swift; sourceTree = "<group>"; };
 		357656362D7AF62A00A46F99 /* rezervisAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rezervisAppApp.swift; sourceTree = "<group>"; };
 		357656382D7AF62A00A46F99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3576563A2D7AF62C00A46F99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3576563D2D7AF62C00A46F99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3589C1B52D7DB5680089B32D /* KayitEkraniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayitEkraniView.swift; sourceTree = "<group>"; };
+		3589C1B72D7DB5890089B32D /* KullaniciAnaEkran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KullaniciAnaEkran.swift; sourceTree = "<group>"; };
+		3589C1B92D7DB5BB0089B32D /* KullaniciRezervasyonlarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KullaniciRezervasyonlarView.swift; sourceTree = "<group>"; };
+		3589C1BB2D7DB5DC0089B32D /* RezervasyonOnayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RezervasyonOnayView.swift; sourceTree = "<group>"; };
+		3589C1BD2D7DB5FB0089B32D /* YoneticiAnaEkran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoneticiAnaEkran.swift; sourceTree = "<group>"; };
+		3589C1BF2D7DB6160089B32D /* YoneticiServisEkleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoneticiServisEkleView.swift; sourceTree = "<group>"; };
+		359C30A32D8D8FAA0033254B /* rezervisApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rezervisApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		359C30AC2D8F53F40033254B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		359C30B12D902E910033254B /* servisVerileriniCekme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = servisVerileriniCekme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +48,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35B1387F2D864F9100DAACFE /* FirebaseDatabase in Frameworks */,
+				355705362D877B1B007EA503 /* FirebaseFirestore in Frameworks */,
+				35B1387D2D864F9100DAACFE /* FirebaseAuth in Frameworks */,
+				355705302D86DE21007EA503 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,25 +62,27 @@
 			isa = PBXGroup;
 			children = (
 				357656352D7AF62A00A46F99 /* rezervisApp */,
-				357656342D7AF62A00A46F99 /* Products */,
+				35B138752D8647D200DAACFE /* Frameworks */,
+				359C30A32D8D8FAA0033254B /* rezervisApp.app */,
 			);
-			sourceTree = "<group>";
-		};
-		357656342D7AF62A00A46F99 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				357656332D7AF62A00A46F99 /* rezervisApp.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		357656352D7AF62A00A46F99 /* rezervisApp */ = {
 			isa = PBXGroup;
 			children = (
+				359C30AC2D8F53F40033254B /* GoogleService-Info.plist */,
 				357656362D7AF62A00A46F99 /* rezervisAppApp.swift */,
 				357656382D7AF62A00A46F99 /* ContentView.swift */,
+				3589C1B52D7DB5680089B32D /* KayitEkraniView.swift */,
+				3589C1B72D7DB5890089B32D /* KullaniciAnaEkran.swift */,
+				3589C1B92D7DB5BB0089B32D /* KullaniciRezervasyonlarView.swift */,
+				3589C1BB2D7DB5DC0089B32D /* RezervasyonOnayView.swift */,
+				3589C1BD2D7DB5FB0089B32D /* YoneticiAnaEkran.swift */,
+				3589C1BF2D7DB6160089B32D /* YoneticiServisEkleView.swift */,
 				3576563A2D7AF62C00A46F99 /* Assets.xcassets */,
 				3576563C2D7AF62C00A46F99 /* Preview Content */,
+				355705332D877690007EA503 /* servisModel.swift */,
+				359C30B12D902E910033254B /* servisVerileriniCekme.swift */,
 			);
 			path = rezervisApp;
 			sourceTree = "<group>";
@@ -65,6 +93,13 @@
 				3576563D2D7AF62C00A46F99 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		35B138752D8647D200DAACFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,8 +118,14 @@
 			dependencies = (
 			);
 			name = rezervisApp;
+			packageProductDependencies = (
+				35B1387C2D864F9100DAACFE /* FirebaseAuth */,
+				35B1387E2D864F9100DAACFE /* FirebaseDatabase */,
+				3557052F2D86DE21007EA503 /* FirebaseAnalytics */,
+				355705352D877B1B007EA503 /* FirebaseFirestore */,
+			);
 			productName = rezervisApp;
-			productReference = 357656332D7AF62A00A46F99 /* rezervisApp.app */;
+			productReference = 359C30A32D8D8FAA0033254B /* rezervisApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +152,10 @@
 				Base,
 			);
 			mainGroup = 3576562A2D7AF62A00A46F99;
-			productRefGroup = 357656342D7AF62A00A46F99 /* Products */;
+			packageReferences = (
+				35B138742D8646A500DAACFE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 3576562A2D7AF62A00A46F99;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -125,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359C30AD2D8F53F40033254B /* GoogleService-Info.plist in Resources */,
 				3576563E2D7AF62C00A46F99 /* Preview Assets.xcassets in Resources */,
 				3576563B2D7AF62C00A46F99 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +182,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3589C1B62D7DB5680089B32D /* KayitEkraniView.swift in Sources */,
 				357656392D7AF62A00A46F99 /* ContentView.swift in Sources */,
 				357656372D7AF62A00A46F99 /* rezervisAppApp.swift in Sources */,
+				3589C1C02D7DB6160089B32D /* YoneticiServisEkleView.swift in Sources */,
+				3589C1B82D7DB5890089B32D /* KullaniciAnaEkran.swift in Sources */,
+				3589C1BC2D7DB5DC0089B32D /* RezervasyonOnayView.swift in Sources */,
+				355705342D877691007EA503 /* servisModel.swift in Sources */,
+				3589C1BE2D7DB5FB0089B32D /* YoneticiAnaEkran.swift in Sources */,
+				359C30B22D902E910033254B /* servisVerileriniCekme.swift in Sources */,
+				3589C1BA2D7DB5BB0089B32D /* KullaniciRezervasyonlarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +397,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		35B138742D8646A500DAACFE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3557052F2D86DE21007EA503 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 35B138742D8646A500DAACFE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		355705352D877B1B007EA503 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 35B138742D8646A500DAACFE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		35B1387C2D864F9100DAACFE /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 35B138742D8646A500DAACFE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		35B1387E2D864F9100DAACFE /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 35B138742D8646A500DAACFE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3576562B2D7AF62A00A46F99 /* Project object */;
 }
